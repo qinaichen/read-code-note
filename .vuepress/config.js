@@ -7,10 +7,7 @@ module.exports = {
     themeConfig: {
         displayAllHeaders: true,
         sidebar: {
-            "/DesignPatterns/": [
-                '',
-                '单一职责原则'
-            ]
+
         }
     }
 }
