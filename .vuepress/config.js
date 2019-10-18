@@ -7,7 +7,10 @@ module.exports = {
     themeConfig: {
         displayAllHeaders: true,
         sidebar: {
-
+            '/security/': [
+                '',
+                '初步入门'
+            ]
         }
     }
 }
