@@ -6,6 +6,11 @@ module.exports = {
     },
     themeConfig: {
         displayAllHeaders: true,
+        nav: [{
+            text: 'GitHub',
+            link: 'https://github.com/qinaichen/read-code-note.git',
+            target: '_blank'
+        }],
         sidebar: {
             '/security/': [
                 '',
