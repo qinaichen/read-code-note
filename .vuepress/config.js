@@ -14,7 +14,8 @@ module.exports = {
         sidebar: {
             '/security/': [
                 '',
-                '初步入门'
+                '初步入门',
+                '自定义认证'
             ]
         }
     }
