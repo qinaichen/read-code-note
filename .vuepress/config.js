@@ -5,8 +5,13 @@ module.exports = {
         lineNumbers: true
     },
     themeConfig: {
-        displayAllHeaders: true,
+        search: false,
         nav: [{
+            text: 'java',
+            items: [
+                { text: 'Sprintg Security', link: '/security/' }
+            ]
+        }, {
             text: 'GitHub',
             link: 'https://github.com/qinaichen/read-code-note.git',
             target: '_blank'
