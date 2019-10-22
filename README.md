@@ -10,4 +10,8 @@ features:
   details: 重新捡起英语
 - title: 大学课本
   details: 重温大学课本知识
+- title: 欢迎加群
+  details: 600519937
+- title: 一起学习
+  details: 终身学习
 ---
