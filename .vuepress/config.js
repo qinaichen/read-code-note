@@ -9,7 +9,9 @@ module.exports = {
         nav: [{
             text: 'java',
             items: [
-                { text: 'Sprintg Security', link: '/security/' }
+                { text: 'Spring', link: '/spring/' },
+                { text: 'Spring Security', link: '/security/' }
+
             ]
         }, {
             text: 'GitHub',
@@ -23,6 +25,10 @@ module.exports = {
                 '自定义认证',
                 '登录页',
                 'Ajax提交表单'
+            ],
+            '/spring/': [
+                '',
+                '组件注册'
             ]
         }
     }
