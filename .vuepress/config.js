@@ -10,7 +10,8 @@ module.exports = {
             text: 'java',
             items: [
                 { text: 'Spring', link: '/spring/' },
-                { text: 'Spring Security', link: '/security/' }
+                { text: 'Spring Security', link: '/security/' },
+                { text: 'Jvm', link: '/jvm/' }
 
             ]
         }, {
@@ -29,6 +30,9 @@ module.exports = {
             '/spring/': [
                 '',
                 '组件注册'
+            ],
+            '/jvm/':[
+
             ]
         }
     }
