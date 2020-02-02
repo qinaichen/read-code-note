@@ -34,9 +34,9 @@ module.exports = {
             '/jvm/': [
                 '',
                 '虚拟机和Java虚拟机介绍',
-                'JVM的整体结构',
                 'Java代码执行流程',
-                'JVM发展历程'
+                'JVM发展历程',
+                'JVM的内存结构'
             ]
         }
     }
