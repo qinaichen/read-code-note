@@ -7,11 +7,11 @@ module.exports = {
     themeConfig: {
         search: false,
         nav: [{
-            text:'前端技术',
-            items:[
-                {text:'webpack',link:'/webpack/'}
+            text: '前端技术',
+            items: [
+                { text: 'webpack', link: '/webpack/' }
             ]
-        },{
+        }, {
             text: 'java',
             items: [
                 { text: 'Spring', link: '/spring/' },
@@ -43,9 +43,11 @@ module.exports = {
                 'JVM发展历程',
                 'JVM的内存结构'
             ],
-            '/webpack/':[
+            '/webpack/': [
                 '',
-                '简介'
+                '简介',
+                '入门',
+                '基本配置'
             ]
         }
     }
