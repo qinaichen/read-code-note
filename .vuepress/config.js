@@ -7,6 +7,11 @@ module.exports = {
     themeConfig: {
         search: false,
         nav: [{
+            text: '运维技术',
+            items: [
+                { text: 'K8S', link: '/k8s/' }
+            ]
+        }, {
             text: '前端技术',
             items: [
                 { text: 'webpack', link: '/webpack/' }
@@ -14,6 +19,7 @@ module.exports = {
         }, {
             text: 'java',
             items: [
+                { text: 'Java核心技术', link: '/java_core/' },
                 { text: 'Spring', link: '/spring/' },
                 { text: 'Spring Security', link: '/security/' },
                 { text: 'Jvm', link: '/jvm/' }
@@ -48,6 +54,12 @@ module.exports = {
                 '简介',
                 '入门',
                 '基本配置'
+            ],
+            '/java_core/': [
+                ''
+            ],
+            '/k8s/': [
+                ''
             ]
         }
     }
