@@ -1,4 +1,5 @@
-# 初步入门
+# 环境搭建
+
 - 添加依赖
 
 创建一个`spring-boot`项目，分别需要web、security、thymeleaf、lombok、test等依赖
@@ -17,28 +18,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-    <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <optional>true</optional>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-test</artifactId>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework.security</groupId>
-        <artifactId>spring-security-test</artifactId>
-        <scope>test</scope>
-    </dependency>
 </dependencies>
 ```
 
 - 添加配置文件
 在`src/main/resources` 下添加文件`spplication.yml`,并添加配置内容
 
-```yml
+```yaml
 spring:
   thymeleaf:
     mode: HTML
@@ -104,7 +90,7 @@ Using generated security password: 0a51b96e-1ef6-45f1-b545-6e6bffd96916
 - 自定义用户名密码
 
 在`application.yml`中增加配置
-```yml
+```yaml
 spring:
   security:
     user:

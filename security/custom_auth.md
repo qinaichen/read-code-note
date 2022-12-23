@@ -75,7 +75,7 @@ protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 
 - 增加配置
 
-```yml
+```yaml
 
 spring:
   thymeleaf:

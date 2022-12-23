@@ -1,7 +1,11 @@
 {
-  "name": "vuepress-blog",
+  "name": "vitepress-blog",
   "scripts": {
-    "start": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "vitepress dev --port=3000",
+    "build": "vitepress build"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.33",
+    "vue": "^3.2.45"
   }
 }
