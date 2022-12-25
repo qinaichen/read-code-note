@@ -4,19 +4,13 @@ export default defineConfig({
     title: '编程笔记',
     description: '吃饱肚子,洗洗睡吧',
     appearance: true,
-    lastUpdated: true,
     themeConfig: {
         nav: [
             {
                 text: 'Java',
                 items: [
                     { text: "Java核心技术", link: '/java_core/' },
-                    { text: "Java虚拟机", link: '/jvm/' }
-                ]
-            },
-            {
-                text: 'Java框架',
-                items: [
+                    { text: "Java虚拟机", link: '/jvm/' },
                     { text: 'Spring Security', link: '/security/' }
                 ]
             },
