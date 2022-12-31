@@ -46,8 +46,8 @@ export default defineConfig({
                         { text: '概述', link: '/security/' },
                         { text: '环境搭建', link: '/security/quickstart' },
                         { text: '自定义认证', link: '/security/custom_auth' },
-                        { text: '登录页', link: '/security/login_page' },
-                        { text: 'Ajax提交表单', link: '/security/ajax_form' },
+                        { text: '自定义登录页', link: '/security/login_page' },
+                        { text: 'Ajax登录', link: '/security/ajax_form' },
                     ]
                 }
             ]
