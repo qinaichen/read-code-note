@@ -1,0 +1,14 @@
+{
+  "name": "read-code-note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/qinaichen/read-code-note.git",
+  "author": "qinaichen <455905502@qq.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "vitepress": "^1.2.3"
+  },
+  "scripts": {
+    "dev":"vitepress dev"
+  }
+}
