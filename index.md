@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/what-is-vitepress
+      link: /webpack
     - theme: alt
       text: 查看源码
       link: https://github.com/qinaichen/read-code-note

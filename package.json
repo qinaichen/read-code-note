@@ -9,6 +9,7 @@
     "vitepress": "^1.2.3"
   },
   "scripts": {
-    "dev":"vitepress dev"
+    "dev":"vitepress dev --port=9001",
+    "build":"vitepress build"
   }
 }
